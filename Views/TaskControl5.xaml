@@ -1,0 +1,15 @@
+﻿<Window x:Class="RevitTask.Views.TaskControl5"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:RevitTask.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="470.8" Width="570.712">
+    <Grid>
+        <ComboBox x:Name="Combo" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="43,58,0,0"/>
+        <Button x:Name="btn_Activate_Plan" Content="Activate Plan" HorizontalAlignment="Left" Margin="62,187,0,0" VerticalAlignment="Top" Width="75" />
+        <Button x:Name="btn_Show_Room" Content="Show Room" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="62,237,0,0" />
+
+    </Grid>
+</Window>

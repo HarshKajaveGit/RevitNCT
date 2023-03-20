@@ -1,0 +1,19 @@
+﻿<Window x:Class="RevitTask.Views.TaskControl6"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:RevitTask.Views"
+             mc:Ignorable="d" Height="315.914" Width="451.58">
+    <Grid HorizontalAlignment="Left" Width="776">
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="39,126,0,0"/>
+        <ListView HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Margin="218,81,0,0">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+    </Grid>
+</Window>
